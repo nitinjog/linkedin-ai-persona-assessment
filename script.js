@@ -1,78 +1,78 @@
 const questions = [
   {
-    text: "Someone asks how many r's are in strawberry. Your first instinct is:",
+    text: "A colleague says, 'We should use AI for everything.' What is your first response?",
     answers: [
-      ["Say two, then immediately blame tokenization.", 1],
-      ["Count slowly, out loud, like a person who has seen things.", 2],
-      ["Use it as a lesson on benchmarks, evaluation, and humility.", 4],
-      ["Post a poll: 'Is spelling AGI?' with a flaming chart.", 0]
+      ["Yes. Finally, the spreadsheet can become sentient.", 0],
+      ["Which exact task are we trying to improve?", 3],
+      ["Let's map the workflow, risk, data, cost, and human review points.", 4],
+      ["Can we announce an AI transformation program before lunch?", 1]
     ]
   },
   {
-    text: "A prompt says: drive the car to a gas station 100 metres away. The AI drives 100 metres and stops in the road. You say:",
+    text: "You are asked to write a prompt for a business report. Which one is strongest?",
     answers: [
-      ["Classic. We optimized the sentence, not the intention.", 4],
-      ["Maybe the gas station should have been more agentic.", 1],
-      ["This is why product managers still exist.", 3],
-      ["I would make this a LinkedIn carousel immediately.", 0]
+      ["Write a great report.", 0],
+      ["Act as a McKinsey consultant and make it impressive.", 1],
+      ["Summarize decisions, risks, numbers, gaps, and recommended next steps.", 4],
+      ["Make it sound smart but not too AI-ish.", 2]
     ]
   },
   {
-    text: "Which model lineup makes you quietly check whether you are still current?",
+    text: "Which model list suggests someone follows AI beyond the usual headlines?",
     answers: [
-      ["ChatGPT, Claude, Gemini. The big three brunch table.", 1],
-      ["DeepSeek, Qwen, Kimi, GLM. The group chat has expanded.", 4],
-      ["Whatever my favourite founder posted this morning.", 0],
-      ["The cheapest model that solves the task without drama.", 3]
+      ["ChatGPT, Claude, Gemini.", 1],
+      ["DeepSeek, Qwen, Kimi, GLM, Mistral.", 4],
+      ["ChatGPT, Canva, Notion, Grammarly.", 0],
+      ["Whichever model is trending on my feed today.", 1]
     ]
   },
   {
-    text: "When someone says 'agents will replace teams', your response is:",
+    text: "Someone says, 'We need AI agents.' What makes it an agent, not just a chatbot?",
     answers: [
-      ["Sure, right after they stop naming files final_final_v7.", 3],
-      ["I ask what tools, permissions, memory, evals, and rollback exist.", 4],
-      ["I nod thoughtfully and write 'agentic' in my notebook.", 1],
-      ["I announce I have automated my entire company. It is a Zapier flow.", 0]
+      ["It has a cooler name and a darker interface.", 0],
+      ["It can use tools, follow steps, check state, and act toward a goal.", 4],
+      ["It replies in bullet points without being asked.", 1],
+      ["It connects two apps and sends me a notification.", 2]
     ]
   },
   {
-    text: "Your relationship with AI video demos is best described as:",
+    text: "Which group of names belongs in a serious AI conversation?",
     answers: [
-      ["Awe, suspicion, then checking if hands survive frame 47.", 3],
-      ["I believe every demo until the comments section rescues me.", 0],
-      ["Useful, but I separate capability from production reliability.", 4],
-      ["I just want my slides to look less like a tax notice.", 2]
+      ["Andrew Ng, Fei-Fei Li, Andrej Karpathy, Demis Hassabis.", 4],
+      ["Steve Jobs, Warren Buffett, Elon from every second post.", 1],
+      ["Tony Stark, Jarvis, Skynet, ChatGPT's cousin.", 0],
+      ["Sam Altman, Dario Amodei, Jensen Huang, Ilya Sutskever.", 3]
     ]
   },
   {
-    text: "A new open-weight model trends because it is cheap and strong. You:",
+    text: "A new open-weight model becomes popular because it is strong and cheap. You:",
     answers: [
-      ["Compare cost per completed task, not just vibes per token.", 4],
-      ["Ask if it can write my performance review in founder voice.", 1],
-      ["Save the thread and forget the name by lunch.", 0],
-      ["Try it on one real workflow before making claims.", 3]
+      ["Declare the old leaders finished forever.", 0],
+      ["Test it on one real task before posting a take.", 3],
+      ["Compare quality, latency, privacy, license, and cost per completed task.", 4],
+      ["Bookmark 14 threads and use none of them.", 1]
     ]
   },
   {
-    text: "Your preferred prompt style is:",
+    text: "Which AI term combo sounds like a real workflow setup?",
     answers: [
-      ["'Be a world-class expert' plus 11 adjectives and hope.", 0],
-      ["Clear role, context, constraints, examples, and success criteria.", 4],
-      ["A tiny prompt, then I negotiate with the model for 20 minutes.", 2],
-      ["I paste the CEO's WhatsApp message and call it requirements.", 1]
+      ["Prompt, vibes, magic, scale.", 0],
+      ["Tools, memory, loop, skills, evals, human approval.", 4],
+      ["Chatbot, caption, carousel, engagement.", 1],
+      ["Template, tone, summary, rewrite.", 2]
     ]
   },
   {
-    text: "Someone shares a screenshot saying a model solved 'Humanity's Last Exam'. You:",
+    text: "Someone posts, 'This model beats everything on benchmarks.' What do you check?",
     answers: [
-      ["Ask what the benchmark measures and what it misses.", 4],
-      ["Reply 'we are so back' because engagement is oxygen.", 0],
-      ["Check whether it can handle your actual messy spreadsheet.", 3],
-      ["Assume humanity should probably schedule a meeting.", 1]
+      ["Whether the chart looks expensive.", 0],
+      ["What the benchmark measures, what it misses, and whether tools were used.", 4],
+      ["Whether my favorite influencer agreed.", 1],
+      ["Whether it improves one task I actually care about.", 3]
     ]
   },
   {
-    text: "Your AI news diet looks like:",
+    text: "Your AI news diet is closest to:",
     answers: [
       ["Official release notes, a few builders, and suspiciously fewer hot takes.", 4],
       ["LinkedIn posts that begin with 'I spent 72 hours testing...'", 1],
@@ -81,25 +81,25 @@ const questions = [
     ]
   },
   {
-    text: "When an AI confidently invents a source, you:",
+    text: "An AI answer includes a source link. What do you do?",
     answers: [
-      ["Call it hallucination and add verification to the workflow.", 4],
-      ["Say 'interesting' and hope nobody opens the link.", 0],
-      ["Ask for citations, then actually click them.", 3],
-      ["Rename it 'synthetic research' and invoice the client.", 1]
+      ["Click the link and verify it supports the claim.", 4],
+      ["Trust it because blue links feel official.", 0],
+      ["Ask for three more sources, then check the best one.", 3],
+      ["Call it research and move to slide design.", 1]
     ]
   },
   {
-    text: "What does 'multimodal' mean in your operating system?",
+    text: "What does 'multimodal AI' mean in practical terms?",
     answers: [
-      ["Text, image, audio, video, tools, and a lot of edge cases.", 4],
-      ["It can look at my screenshot and politely misunderstand it.", 2],
-      ["It means the demo has background music.", 0],
-      ["It is powerful, but integration quality matters more than the label.", 3]
+      ["It works with text, images, audio, video, or files depending on the task.", 4],
+      ["It means the app has many pricing plans.", 0],
+      ["It can look at a screenshot and help debug or explain it.", 3],
+      ["It makes prettier images than last year's model.", 1]
     ]
   },
   {
-    text: "Your most LinkedIn AI habit is:",
+    text: "Your most honest LinkedIn AI habit is:",
     answers: [
       ["Turning one useful workflow into a tasteful post, not a prophecy.", 3],
       ["Writing '10 prompts that changed my life' after changing one heading.", 0],
@@ -121,9 +121,9 @@ const personas = [
   {
     min: 11,
     level: "Level 2",
-    title: "Strawberry Incident Correspondent",
-    summary: "You have seen the memes and survived the screenshots. You know AI can be brilliant and ridiculous, often inside the same answer.",
-    badges: ["Meme-aware", "Prompt tinkerer", "Cautious optimism"],
+    title: "AI Carousel Field Reporter",
+    summary: "You have seen the demos, saved the threads, and survived the screenshots. You know AI can be brilliant and ridiculous, often inside the same meeting.",
+    badges: ["Meme-aware", "Prompt tinkerer", "Cautiously online"],
     colors: ["#ef6f7b", "#ffd0d6", "#0a66c2"]
   },
   {
