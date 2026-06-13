@@ -1,110 +1,110 @@
 const questions = [
   {
-    text: "A colleague says, 'We should use AI for everything.' What is your first response?",
+    text: "A new AI tool is suddenly everywhere. What are you most likely to do first?",
     answers: [
-      ["Yes. Finally, the spreadsheet can become sentient.", 0],
-      ["Which exact task are we trying to improve?", 3],
-      ["Let's map the workflow, risk, data, cost, and human review points.", 4],
-      ["Can we announce an AI transformation program before lunch?", 1]
+      ["Save a few demos and wait until someone I trust reviews it.", 1],
+      ["Try it on a small task I actually do every week.", 3],
+      ["Map where it could fit, what data it needs, and how it might fail.", 4],
+      ["Share the launch because my network would find it interesting.", 2]
     ]
   },
   {
-    text: "You are asked to write a prompt for a business report. Which one is strongest?",
+    text: "When you ask AI to help with a business report, your usual instruction is closest to:",
     answers: [
-      ["Write a great report.", 0],
-      ["Act as a McKinsey consultant and make it impressive.", 1],
-      ["Summarize decisions, risks, numbers, gaps, and recommended next steps.", 4],
-      ["Make it sound smart but not too AI-ish.", 2]
+      ["Make this sharper and easier to read for leadership.", 2],
+      ["Summarize the key points and give me a polished draft.", 1],
+      ["Extract decisions, risks, numbers, gaps, assumptions, and next steps.", 4],
+      ["Create a first draft, then I will edit tone and structure myself.", 3]
     ]
   },
   {
-    text: "Which model list suggests someone follows AI beyond the usual headlines?",
+    text: "When people discuss AI models, which set feels most familiar to you?",
     answers: [
-      ["ChatGPT, Claude, Gemini.", 1],
+      ["ChatGPT, Claude, Gemini, Perplexity.", 2],
       ["DeepSeek, Qwen, Kimi, GLM, Mistral.", 4],
-      ["ChatGPT, Canva, Notion, Grammarly.", 0],
-      ["Whichever model is trending on my feed today.", 1]
+      ["Canva, Notion AI, Grammarly, Copilot.", 1],
+      ["OpenAI, Anthropic, Google, Meta, xAI.", 3]
     ]
   },
   {
-    text: "Someone says, 'We need AI agents.' What makes it an agent, not just a chatbot?",
+    text: "Your team says, 'Let's build an AI agent.' What do you focus on first?",
     answers: [
-      ["It has a cooler name and a darker interface.", 0],
-      ["It can use tools, follow steps, check state, and act toward a goal.", 4],
-      ["It replies in bullet points without being asked.", 1],
-      ["It connects two apps and sends me a notification.", 2]
+      ["The user journey and how the agent should feel to use.", 2],
+      ["The exact goal, tool access, memory, permissions, and handoff points.", 4],
+      ["A simple automation that proves the idea before we overbuild it.", 3],
+      ["Examples of similar agents people are already sharing online.", 1]
     ]
   },
   {
-    text: "Which group of names belongs in a serious AI conversation?",
+    text: "Which group of AI voices are you most likely to recognize or follow?",
     answers: [
-      ["Andrew Ng, Fei-Fei Li, Andrej Karpathy, Demis Hassabis.", 4],
-      ["Steve Jobs, Warren Buffett, Elon from every second post.", 1],
-      ["Tony Stark, Jarvis, Skynet, ChatGPT's cousin.", 0],
-      ["Sam Altman, Dario Amodei, Jensen Huang, Ilya Sutskever.", 3]
+      ["Andrew Ng, Ethan Mollick, Allie K. Miller, Rowan Cheung.", 3],
+      ["Fei-Fei Li, Andrej Karpathy, Demis Hassabis, Yann LeCun.", 4],
+      ["Sam Altman, Dario Amodei, Jensen Huang, Ilya Sutskever.", 3],
+      ["Mostly creators who translate AI news into simple daily posts.", 2]
     ]
   },
   {
-    text: "A new open-weight model becomes popular because it is strong and cheap. You:",
+    text: "A strong open-weight model becomes popular. Your next move is usually:",
     answers: [
-      ["Declare the old leaders finished forever.", 0],
-      ["Test it on one real task before posting a take.", 3],
-      ["Compare quality, latency, privacy, license, and cost per completed task.", 4],
-      ["Bookmark 14 threads and use none of them.", 1]
+      ["Read summaries to understand why people are excited.", 1],
+      ["Try it on a real task and compare the output with my current setup.", 3],
+      ["Check quality, latency, license, privacy, deployment path, and cost.", 4],
+      ["Share the development with a short note on why it matters.", 2]
     ]
   },
   {
-    text: "Which AI term combo sounds like a real workflow setup?",
+    text: "Which terms show up most often when you think about real AI workflows?",
     answers: [
-      ["Prompt, vibes, magic, scale.", 0],
-      ["Tools, memory, loop, skills, evals, human approval.", 4],
-      ["Chatbot, caption, carousel, engagement.", 1],
-      ["Template, tone, summary, rewrite.", 2]
+      ["Templates, tone, summaries, rewrites.", 1],
+      ["Use cases, adoption, training, change management.", 2],
+      ["Tools, memory, loops, skills, evals, human approval.", 4],
+      ["RAG, function calling, latency, observability, fallback.", 3]
     ]
   },
   {
-    text: "Someone posts, 'This model beats everything on benchmarks.' What do you check?",
+    text: "You see a benchmark chart claiming a model is now the best. What catches your eye?",
     answers: [
-      ["Whether the chart looks expensive.", 0],
+      ["Whether credible people are discussing it seriously.", 2],
       ["What the benchmark measures, what it misses, and whether tools were used.", 4],
-      ["Whether my favorite influencer agreed.", 1],
-      ["Whether it improves one task I actually care about.", 3]
+      ["Whether it changes the tools I should recommend to others.", 3],
+      ["The headline result and the practical takeaway.", 1]
     ]
   },
   {
-    text: "Your AI news diet is closest to:",
+    text: "Your AI learning habit is closest to:",
     answers: [
-      ["Official release notes, a few builders, and suspiciously fewer hot takes.", 4],
-      ["Posts that begin with 'I spent 72 hours testing...'", 1],
-      ["One WhatsApp forward, two podcasts, and a graph with no axis label.", 0],
-      ["Newsletters, demos, and trying tools before forming opinions.", 3]
+      ["I follow explainers, videos, and summaries to stay aware.", 1],
+      ["I curate useful updates and share them with people who need context.", 2],
+      ["I read release notes, test tools, and keep notes on what worked.", 3],
+      ["I track research, product changes, cost, reliability, and adoption patterns.", 4]
     ]
   },
   {
-    text: "An AI answer includes a source link. What do you do?",
+    text: "An AI-generated answer includes sources. What is your usual habit?",
     answers: [
-      ["Click the link and verify it supports the claim.", 4],
-      ["Trust it because blue links feel official.", 0],
-      ["Ask for three more sources, then check the best one.", 3],
-      ["Call it research and move to slide design.", 1]
+      ["Use the sources as a starting point, then check the important ones.", 3],
+      ["If it sounds reasonable, I keep moving and refine later if needed.", 1],
+      ["Verify that the source exists, is relevant, and supports the claim.", 4],
+      ["Ask for clearer citations before deciding whether to trust it.", 2]
     ]
   },
   {
-    text: "What does 'multimodal AI' mean in practical terms?",
+    text: "When you hear 'multimodal AI,' what practical use comes to mind first?",
     answers: [
-      ["It works with text, images, audio, video, or files depending on the task.", 4],
-      ["It means the app has many pricing plans.", 0],
-      ["It can look at a screenshot and help debug or explain it.", 3],
-      ["It makes prettier images than last year's model.", 1]
+      ["Analyzing screenshots, documents, images, audio, or video inside a workflow.", 4],
+      ["Creating better visuals and richer presentations.", 1],
+      ["Helping explain files, charts, and messy inputs that text alone cannot capture.", 3],
+      ["Making AI feel easier for non-technical users to interact with.", 2]
     ]
   },
   {
-    text: "Your most honest public AI habit is:",
+    text: "Which statement best describes your current role in the AI ecosystem?",
     answers: [
-      ["Turning one useful workflow into a tasteful post, not a prophecy.", 3],
-      ["Writing '10 prompts that changed my life' after changing one heading.", 0],
-      ["Explaining tradeoffs even when the comments wanted magic.", 4],
-      ["Saving 400 tools and using the same three.", 2]
+      ["I am learning fast and sharing useful things as I discover them.", 1],
+      ["I help others understand what is changing and why it matters.", 2],
+      ["I test AI in real workflows and explain what actually happened.", 3],
+      ["I design, evaluate, or improve AI systems with clear success measures.", 4]
     ]
   }
 ];
@@ -113,41 +113,41 @@ const personas = [
   {
     min: 0,
     level: "Level 1",
-    title: "Prompt Potato With Wi-Fi",
-    summary: "You know AI is important, mostly because everyone says it before selling a course. Your superpower is enthusiasm. Your weakness is believing every demo has already shipped.",
-    badges: ["Vibe-first", "Carousel vulnerable", "Still counts letters manually"],
+    title: "Curious AI Explorer",
+    summary: "You are early on the spectrum, but very much in the game. You are learning the language, following the movement, and building the habit of experimenting.",
+    badges: ["Curious", "Tool-aware", "Building momentum"],
     colors: ["#f3b33d", "#ffe6a3", "#0a66c2"]
   },
   {
-    min: 11,
+    min: 20,
     level: "Level 2",
-    title: "AI Carousel Field Reporter",
-    summary: "You have seen the demos, saved the threads, and survived the screenshots. You know AI can be brilliant and ridiculous, often inside the same meeting.",
-    badges: ["Meme-aware", "Prompt tinkerer", "Cautiously online"],
+    title: "AI Ecosystem Amplifier",
+    summary: "You are good at spotting useful signals and spreading awareness. Your next edge is turning more of that knowledge into repeatable experiments.",
+    badges: ["Trend-aware", "Context sharer", "Learning out loud"],
     colors: ["#ef6f7b", "#ffd0d6", "#0a66c2"]
   },
   {
-    min: 21,
+    min: 28,
     level: "Level 3",
-    title: "Agentic Middle Manager",
-    summary: "You can translate hype into workflows, which makes you dangerous in meetings. You are not fully expert, but you have stopped calling every automation an AI agent.",
-    badges: ["Workflow fluent", "Tool stack collector", "Demo skeptic"],
+    title: "Workflow Experimenter",
+    summary: "You have moved beyond watching demos. You try tools, compare outputs, and are starting to separate impressive moments from useful systems.",
+    badges: ["Hands-on", "Use-case minded", "Demo skeptic"],
     colors: ["#32c89a", "#d7fff1", "#084d92"]
   },
   {
-    min: 32,
+    min: 36,
     level: "Level 4",
-    title: "Model Menu Sommelier",
-    summary: "You know when to use a frontier model, when to use a cheaper open model, and when to use a spreadsheet. People ask you questions. You answer with caveats.",
-    badges: ["Eval-minded", "Cost-aware", "Qwen/Kimi literate"],
+    title: "Model-Savvy Practitioner",
+    summary: "You understand model tradeoffs, workflow design, verification, and cost. You are practical enough to know when AI helps and when plain process wins.",
+    badges: ["Eval-minded", "Cost-aware", "Workflow fluent"],
     colors: ["#0a66c2", "#cfe7ff", "#32c89a"]
   },
   {
-    min: 42,
+    min: 44,
     level: "Level 5",
-    title: "Benchmark Baba",
-    summary: "You can discuss reasoning, agents, multimodal systems, open weights, and model economics without turning into a press release. Rare. Slightly alarming.",
-    badges: ["Signal rich", "Receipts available", "Hot-take resistant"],
+    title: "AI Systems Strategist",
+    summary: "You connect research, models, workflows, risk, adoption, and measurement. You can zoom from a prompt to an operating model without losing the plot.",
+    badges: ["Systems thinker", "Receipts available", "Hot-take resistant"],
     colors: ["#17212b", "#e6eef7", "#f3b33d"]
   }
 ];
@@ -306,7 +306,7 @@ function showResult() {
 
 function makeShareText(persona) {
   const score = getScore();
-  return `I took The AI Persona Assessment and got: ${persona.title} (${persona.level}). Score: ${score}/${questions.length * 4}. I will now be using the word "agentic" responsibly.`;
+  return `I took The AI Expert Spectrum Assessment and got: ${persona.title} (${persona.level}). Score: ${score}/${questions.length * 4}. A useful mirror for where we sit on the AI awareness spectrum.`;
 }
 
 function makeAvatar(persona) {
@@ -345,7 +345,7 @@ function makeDownloadCard(persona) {
     <rect x="70" y="58" width="1060" height="514" rx="28" fill="#fff" stroke="#d8e1e8" stroke-width="3"/>
     <rect x="70" y="58" width="1060" height="18" rx="9" fill="#0a66c2"/>
     ${avatar}
-    <text x="610" y="166" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#084d92">THE AI PERSONA ASSESSMENT</text>
+    <text x="610" y="166" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#084d92">THE AI EXPERT SPECTRUM ASSESSMENT</text>
     <text x="610" y="230" font-family="Arial, sans-serif" font-size="54" font-weight="800" fill="#17212b">${cleanTitle}</text>
     <text x="610" y="292" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#5f6f7f">${persona.level} | ${score}/${questions.length * 4}</text>
     <text font-family="Arial, sans-serif" font-size="25" fill="#5f6f7f">${summaryLines}</text>
