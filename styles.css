@@ -5,8 +5,8 @@
   --line: #d8e1e8;
   --paper: #f7f9fb;
   --panel: #ffffff;
-  --linkedin: #0a66c2;
-  --linkedin-dark: #084d92;
+  --signal-blue: #0a66c2;
+  --signal-blue-dark: #084d92;
   --mint: #32c89a;
   --gold: #f3b33d;
   --rose: #ef6f7b;
@@ -57,7 +57,7 @@ button {
 .eyebrow,
 .section-kicker {
   margin: 0 0 10px;
-  color: var(--linkedin-dark);
+  color: var(--signal-blue-dark);
   font-size: 0.78rem;
   font-weight: 800;
   letter-spacing: 0;
@@ -141,7 +141,7 @@ p {
 }
 
 .avatar-dot.blue {
-  background: linear-gradient(135deg, var(--linkedin), #9ad2ff);
+  background: linear-gradient(135deg, var(--signal-blue), #9ad2ff);
 }
 
 .avatar-dot.gold {
@@ -188,12 +188,12 @@ p {
 
 .primary-btn {
   color: #fff;
-  background: var(--linkedin);
+  background: var(--signal-blue);
   box-shadow: 0 10px 20px rgba(10, 102, 194, 0.22);
 }
 
 .secondary-btn {
-  color: var(--linkedin-dark);
+  color: var(--signal-blue-dark);
   background: #fff;
   border-color: var(--line);
 }
@@ -251,7 +251,7 @@ p {
   width: 0;
   height: 100%;
   border-radius: inherit;
-  background: linear-gradient(90deg, var(--linkedin), var(--mint), var(--gold));
+  background: linear-gradient(90deg, var(--signal-blue), var(--mint), var(--gold));
   transition: width 180ms ease;
 }
 
@@ -295,7 +295,7 @@ p {
 
 .answer input {
   margin-top: 4px;
-  accent-color: var(--linkedin);
+  accent-color: var(--signal-blue);
 }
 
 .answer strong {
@@ -331,7 +331,7 @@ p {
   position: absolute;
   inset: 0 0 auto;
   height: 12px;
-  background: linear-gradient(90deg, var(--linkedin), var(--mint), var(--gold), var(--rose));
+  background: linear-gradient(90deg, var(--signal-blue), var(--mint), var(--gold), var(--rose));
 }
 
 .result-card > * {
@@ -368,7 +368,7 @@ p {
   padding: 7px 10px;
   border: 1px solid var(--line);
   border-radius: 999px;
-  color: var(--linkedin-dark);
+  color: var(--signal-blue-dark);
   background: #f2f7fc;
   font-size: 0.82rem;
   font-weight: 800;

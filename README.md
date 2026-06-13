@@ -1,13 +1,13 @@
-# The LinkedIn AI Persona Assessment
+# The AI Persona Assessment
 
 A static, no-backend AI fluency/persona quiz built for GitHub Pages.
 
 ## What it does
 
-- Asks 12 non-technical, meme-aware questions about AI culture, model news, prompts, agents, and LinkedIn thought-leadership habits.
+- Asks 12 non-technical, meme-aware questions about AI culture, model news, prompts, agents, and public AI thought-leadership habits.
 - Scores users into 5 humorous personas from novice to expert.
 - Shows a shareable result card with an illustrated persona.
-- Lets users copy a LinkedIn-ready result post, use native sharing when available, or download a PNG result card.
+- Lets users copy a share-ready result post, use native sharing when available, or download a PNG result card.
 - Collects no names, emails, analytics, or personal information.
 
 ## Deploy on GitHub Pages

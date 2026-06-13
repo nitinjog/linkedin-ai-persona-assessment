@@ -75,7 +75,7 @@ const questions = [
     text: "Your AI news diet is closest to:",
     answers: [
       ["Official release notes, a few builders, and suspiciously fewer hot takes.", 4],
-      ["LinkedIn posts that begin with 'I spent 72 hours testing...'", 1],
+      ["Posts that begin with 'I spent 72 hours testing...'", 1],
       ["One WhatsApp forward, two podcasts, and a graph with no axis label.", 0],
       ["Newsletters, demos, and trying tools before forming opinions.", 3]
     ]
@@ -99,7 +99,7 @@ const questions = [
     ]
   },
   {
-    text: "Your most honest LinkedIn AI habit is:",
+    text: "Your most honest public AI habit is:",
     answers: [
       ["Turning one useful workflow into a tasteful post, not a prophecy.", 3],
       ["Writing '10 prompts that changed my life' after changing one heading.", 0],
@@ -145,7 +145,7 @@ const personas = [
   {
     min: 42,
     level: "Level 5",
-    title: "Benchmark Baba of LinkedIn",
+    title: "Benchmark Baba",
     summary: "You can discuss reasoning, agents, multimodal systems, open weights, and model economics without turning into a press release. Rare. Slightly alarming.",
     badges: ["Signal rich", "Receipts available", "Hot-take resistant"],
     colors: ["#17212b", "#e6eef7", "#f3b33d"]
@@ -214,7 +214,7 @@ copyBtn.addEventListener("click", async () => {
   const text = makeShareText(persona);
   await navigator.clipboard.writeText(text);
   copyBtn.textContent = "Copied";
-  setTimeout(() => (copyBtn.textContent = "Copy LinkedIn post"), 1400);
+  setTimeout(() => (copyBtn.textContent = "Copy share post"), 1400);
 });
 
 shareBtn.addEventListener("click", async () => {
@@ -306,7 +306,7 @@ function showResult() {
 
 function makeShareText(persona) {
   const score = getScore();
-  return `I took The LinkedIn AI Persona Assessment and got: ${persona.title} (${persona.level}). Score: ${score}/${questions.length * 4}. I will now be adding "agentic" to my headline responsibly.`;
+  return `I took The AI Persona Assessment and got: ${persona.title} (${persona.level}). Score: ${score}/${questions.length * 4}. I will now be using the word "agentic" responsibly.`;
 }
 
 function makeAvatar(persona) {
@@ -345,7 +345,7 @@ function makeDownloadCard(persona) {
     <rect x="70" y="58" width="1060" height="514" rx="28" fill="#fff" stroke="#d8e1e8" stroke-width="3"/>
     <rect x="70" y="58" width="1060" height="18" rx="9" fill="#0a66c2"/>
     ${avatar}
-    <text x="610" y="166" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#084d92">THE LINKEDIN AI PERSONA ASSESSMENT</text>
+    <text x="610" y="166" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#084d92">THE AI PERSONA ASSESSMENT</text>
     <text x="610" y="230" font-family="Arial, sans-serif" font-size="54" font-weight="800" fill="#17212b">${cleanTitle}</text>
     <text x="610" y="292" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#5f6f7f">${persona.level} | ${score}/${questions.length * 4}</text>
     <text font-family="Arial, sans-serif" font-size="25" fill="#5f6f7f">${summaryLines}</text>
